@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myblog',
+    'ckeditor',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -126,3 +127,5 @@ LOGIN_REDIRECT_URL = '/'
 STATIC_URL = '/static/'
 
 REGISTRATION_OPEN = True
+
+CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
