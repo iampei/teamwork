@@ -10,6 +10,7 @@ urlpatterns = [
     # url(r'^posts/(\d+)/$',
     # stub_view,
     # name="blog_detail"),
+    url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^posts/(?P<post_id>\d+)/$',
     detail_view,
     name="blog_detail"),
