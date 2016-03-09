@@ -1,4 +1,4 @@
-from settings import *
+from mysite.settings import *
 
 DEBUG = False
 TEMPLATE_DEBUG = False
